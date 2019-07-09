@@ -1,0 +1,21 @@
+{
+  "name": "on-number-in-range-emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "npx tape dist/tests/**/*.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.1",
+    "@types/tape": "^4.2.33",
+    "tape": "^4.11.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "on-changed-emitter": "^1.0.3"
+  }
+}
