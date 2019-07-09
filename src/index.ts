@@ -1,8 +1,8 @@
 import { OnChangedEmitter, ChangeData } from 'on-changed-emitter';
 
 export class OnNumberInRangeEmitter extends OnChangedEmitter {
-    readonly minValue: number;
-    readonly maxValue: number;
+    minValue: number;
+    maxValue: number;
     private _isInRange: boolean = false;
 
     constructor(minValue: number, maxValue: number) {
